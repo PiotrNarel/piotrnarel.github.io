@@ -1,5 +1,35 @@
 baseURL: https://piotrnarel.pl/
-languageCode: en-us
-title: Piotr Narel
+languageCode: pl
+title: Piotr Narel | piotrnarel.pl 
 theme: ["PaperMod"]
+
+params:
+  profileMode:
+    enabled: true
+    title: "Piotr Narel" # optional default will be site title
+    subtitle: "Programowanie | Administracja Systemami Linux | Wdrożenia"
+    buttons:
+    - name: O mnie
+      url: /about
+    - name: Kontakt
+      url: /contact
+
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/piotr-narel/"
+    - name: "github"
+      url: "https://github.com/piotrnarel"
+    - name: "wordpress"
+      url: "https://dev-notes.pl"
+
+menu:
+  main:
+    - identifier: about
+      name: O mnie
+      url: /about/
+      weight: 10
+    - identifier: contact
+      name: Kontakt
+      url: /contact/
+      weight: 15
 
